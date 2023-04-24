@@ -1,0 +1,290 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.background{
+    position: absolute;
+    display: inline-flex;
+    flex-direction: column;
+}
+.back, .back-2{
+    position: relative;
+    width: 1000px;
+    height: 1080px;
+    z-index: -1;
+    background-image: url("https://damion.club/uploads/posts/2022-09/1663982577_2-damion-club-p-krasivii-zadnii-fon-dlya-prezentatsii-vkon-3.jpg");
+    background-repeat: no-repeat;
+    float: left;
+}
+.back-2{
+    transform: rotate(180deg);
+    transform: scale(1, -1);
+}
+.back-3{
+    height: 400px;
+}
+
+.main{
+    float: left;
+    position: relative;
+    left: 100px;
+    bottom: -20px;
+    width: 800px;
+    margin-bottom: 20px;
+    background-color: #00000048;
+}
+.text{
+    width: 700px;
+    text-align: left;
+    position: relative;
+    float: left;
+    margin: 0 20px;
+    font-family: "Verdana", serif;
+    color: rgb(200, 200, 200);
+}
+.header{
+    position: relative;
+    float: left;
+    left: 175px;
+    width: 450px;
+    height: 95px;
+    margin: 20px 0;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Lenovo_logo_2015.svg/2560px-Lenovo_logo_2015.svg.png");
+    background-position: 50% 47%;
+    background-size: 100%;
+    filter: brightness(90%);
+}
+.header-text{
+    position: relative;
+    float: left;
+    width: 800px;
+    height: 170px;
+    margin-bottom: 50px;
+}
+.header-text-top{
+    margin-top: 35px;
+    margin-bottom: 20px;
+    color: rgb(200, 200, 200);
+    text-align: center;
+}
+.header-text-mid{
+    margin-bottom: 20px;
+    color: rgb(200, 200, 200);
+    text-align: center;
+}
+h2{
+    margin-bottom: 20px;
+    color: white;
+}
+p{
+    font-weight: 500;
+    color: rgb(200, 200, 200);
+    font-size: 17px
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+a:link {
+    color: #ffffff; /* Цвет ссылок */
+    padding: 2px; /* Поля вокруг текста */ 
+   }
+   a:hover {
+    background: #e92929; /* Цвет фона под ссылкой */ 
+    color: #ffe; /* Цвет ссылки */ 
+   } 
+.video-container{
+    position: relative;
+    float: left;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    width: 800px;
+    margin-bottom: 100px;
+}
+.video{
+    position: relative;
+    float: left;
+    margin-right: 20px;
+}
+.video-text{
+    position: relative;
+    float: left;
+    width: 320px;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+.info-container{
+    position: relative;
+    float: left;
+    height: 280px;
+    width: 800px;
+    margin-bottom: 100px;
+}
+.info-header{
+    position: relative;
+    font-size: 20px;
+}
+.image-logo{
+    position: relative;
+    float:left;
+    width: 300px;
+    padding: 10px;
+    margin: 20px 50px;
+    background-color: #9fc4fc75;
+    border-radius: 20px;
+}
+.info-text{
+    font-size: large;
+    padding: 0 30px;
+}
+.lenovo-info-container{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 280px;
+    width: 800px;
+    margin-bottom: 100px;
+}
+.lenovo-info-img{
+    position: relative;
+    float: left;
+    margin: 0 0 0 20px;
+}
+.lenovo-info-text{
+    width: 320px;
+}
+.qazaqtechnology-info-container{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 280px;
+    width: 800px;
+}
+.qazaqtechnology-info-img{
+    position: relative;
+    float: left;
+    margin: 0 20px 0 0;
+}
+.qazaqtechnology-info-text{
+    width: 320px;
+}
+
+.cards-container{
+    position: relative;
+    float: left;
+    height: 220px;
+    width: 800px;
+    margin-bottom: 60px;
+}
+.cards{
+    display: inline-flex;
+    width: 800px;
+    height: 200px;
+    justify-content: space-around;
+    align-items: center;
+}
+.card-img{
+    position: relative;
+    width: 150px;
+    height: 120px;
+}
+.cards-text{
+    display: inline-flex;
+    justify-content: space-around;
+    text-align: center;
+    width: 800px;
+    margin-top: 20px;
+}
+.card-title{
+    width: 220px;
+    height: 150px;
+    padding: 10px;
+    border: 2px rgb(224, 224, 224) solid;
+}
+.middle{
+    position: relative;
+    float: left;
+    width: 800px;
+    margin-bottom: 60px;
+    padding: 30px 0;
+}
+.container-item{
+    position: relative;
+    height: 230px;
+}
+.photo-item{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    float: left;
+    margin-top: 10px;
+    left: 50px;
+}
+.title-item{
+    position: relative;
+    float: right;
+    margin-top: 10px;
+    width: 470px;
+    left: -50px;
+}
+.button-cp{
+    position: relative;
+    float: right;
+    text-align: center;
+    background-color: #707070;
+    border: 2px rgb(102, 102, 102) solid;
+    border-radius: 30px;
+    width: 150px;
+    height: 20px;
+    left: 150px;
+    bottom: -145px;
+}
+.consultation{
+    width: 300px;
+    height: 75px;
+    margin: 50px;
+    vertical-align: middle;
+    font-size: 30px;
+    float: left;
+    left: 200px;
+    bottom: 0px;
+}
+h3{
+    color: #ffe;
+}
+.second-item{
+    margin-top: 30px;
+    border-top: rgb(224, 224, 224) 1px solid;
+    height: 150px;
+}
+.second-btn{
+    bottom: -125px;
+}
+.text-left{
+    text-align: left;
+}
+.offtake{
+    position: relative;
+    float: left;
+    width: 800px;
+    margin-bottom: 20px;
+}
+.offtake-title{
+    margin: 30px 50px 20px;
+}
+.offtake-text{
+    margin-bottom: 30px;
+}
+.btn-cons{
+    margin: 50px;
+    font-size: 20px;
+}
+.footer{
+    width: 740px;
+    margin: 30px;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+}
